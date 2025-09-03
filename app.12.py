@@ -72,6 +72,8 @@ filtro2 = gdf[gdf['entidad'] == mun][['codigo_alt', 'geometry']]
 
 
 fig, ax = plt.subplots(1, 1)
-filtro2.plto(ax = ax)
+filtro2.plot(ax=ax)
+
+
 
 st.pyplot(fig)
